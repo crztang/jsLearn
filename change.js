@@ -4,7 +4,9 @@
 // $done({ body }); 
 
 let ele = '</body>';
-let eleReplace = '<script async="async" defer="defer" src="https://raw.githubusercontent.com/crztang/jsLearn/main/change_for_school.js"></script></body>'
+let eleReplace = '<script src="https://raw.githubusercontent.com/crztang/jsLearn/main/change_for_school.js"></script></body>'
+
+// let eleReplace = '<script async="async" defer="defer" src="https://raw.githubusercontent.com/crztang/jsLearn/main/change_for_school.js"></script></body>'
 let body = $response.body.replace(ele, eleReplace)             
 $done({ body }); 
 
