@@ -18,5 +18,5 @@
 
     var window = unsafeWindow
     var url = location.pathname
-    //window.alert("测试啊");
+    window.alert("测试啊");
     $("p:contains(学生学号)").css("text-decoration", "underline");
