@@ -1,10 +1,5 @@
+alert("测试啊");
 
-
-function myFunction()
-{
-    alert("测试啊");
-    //document.getElementById("demo").innerHTML="我的第一个 JavaScript 函数";
-}
 
 
 
@@ -17,4 +12,4 @@ function myFunction()
 //         // document.getElementsByClassName("hc-vaccin").innerHTML="test"
 //         // document.getElementsByClassName("school").innerHTML="test"
 //         // $(".hc-city").css("text-decoration", "underline");
-// });
+// }
