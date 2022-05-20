@@ -15,10 +15,17 @@
     // ==/UserScript==
 
 
+    function myFunction()
+{
+    alert("测试啊");
+    //document.getElementById("demo").innerHTML="我的第一个 JavaScript 函数";
+}
+
+
 
     //var window = unsafeWindow
     //var url = location.pathname
-    alert("测试啊");
+    
     // $(document).ready(function(){
         
     //     $("p:contains(学生学号)").css("text-decoration", "underline");
