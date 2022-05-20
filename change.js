@@ -1,7 +1,13 @@
-let ele = '<head>';
-let eleReplace = '<head><script async="async" defer="defer" src="https://raw.githubusercontent.com/crztang/jsLearn/main/change_for_school.js"></script>'
+// let ele = '<head>';
+// let eleReplace = '<head><script async="async" defer="defer" src="https://raw.githubusercontent.com/crztang/jsLearn/main/change_for_school.js"></script>'
+// let body = $response.body.replace(ele, eleReplace)             
+// $done({ body }); 
+
+let ele = '</body>';
+let eleReplace = '<script async="async" defer="defer" src="https://raw.githubusercontent.com/crztang/jsLearn/main/change_for_school.js"></script></body>'
 let body = $response.body.replace(ele, eleReplace)             
 $done({ body }); 
+
 
 
 // let ele = '<head>';
