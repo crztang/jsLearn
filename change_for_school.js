@@ -14,9 +14,9 @@
     // @run-at       document-end
     // ==/UserScript==
 
-    'use strict';
 
-    var window = unsafeWindow
-    var url = location.pathname
-    window.alert("测试啊");
-    $("p:contains(学生学号)").css("text-decoration", "underline");
+
+    //var window = unsafeWindow
+    //var url = location.pathname
+    alert("测试啊");
+    //$("p:contains(学生学号)").css("text-decoration", "underline");
